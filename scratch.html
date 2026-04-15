@@ -3,11 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hobby: Photography</title>
+    <link rel="stylesheet" href="../startbootstrap-clean-blog-gh-pages/css/overwrite.css">
+    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
 </head>
+
 <body>
-    <h4>Tableau Dashboard</h4>
-   <div class='tableauPlaceholder' id='viz1776135086611' style='position: relative'>
+    <!-- navigation links -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#photography">Photography</a>
+        <a href="#video">Watch</a>
+        <a href="#data">Data</a>
+        <a href="../startbootstrap-clean-blog-gh-pages/index.html">Back to Home</a>
+        <a href="app.html">My Web App</a>
+        <a href="about.html">My Resume</a>
+    </nav>
+
+    <!--div 1 -->
+    <div id="main-content">
+     
+        <!-- intro -->
+        <a name="top"></a>
+        <h1>Photography: My Fav Hobby</h1>
+
+        <br>
+
+        <!--Photo Section -->
+        <a name="photography"></a>
+
+        <!-- Div 2 -->
+        <div class="section-box">
+            <h2>Photography</h2>
+
+            <p>
+               I picked up photography when I was 15, and it quickly became my biggest hobby and creative outlet.
+               I was able to capture funny moments with my friends and create art with it. I've been able to turn
+               it into a side hustle as well, with keeping it a hobby, too.
+            </p>
+
+            <p>
+               I shoot with a Nikon D5200, and a Nikon EM film camera. I mostly take portrait photos. 
+            </p>
+
+            <!-- Image Container Div (Div 3) -->
+            <div class="image-container">
+                <img src="../startbootstrap-clean-blog-gh-pages/images/DSCN2282.jpg"
+                     alt="Portrait of a friend at the Sand Dunes at night">
+                <p>Portrait of a friend at the Sand Dunes at night</p>
+            </div>
+
+            <h3>My Camera Gear</h3>
+            <ul>
+                <li>Nikon D5200 DSLR camera body</li>
+                <li>Nikon EM film camera</li>
+                <li>24-70mm zoom lens</li>
+                <li>Tripod</li>
+                <li>Adobe Lightroom </li>
+            </ul>
+
+            <h3>Types of Photography I Love</h3>
+
+            <!--ordered list with nested unordered listt-->
+            <ol>
+                <li>
+                    Landscape Photography
+                    <ul>
+                        <li>Mountains, hiking trails, lakes</li>
+                        <li>Sunsets (can't beat them!)</li>
+                    </ul>
+                </li>
+                <li>
+                    Street Photography
+                    <ul>
+                        <li>Candids of streetgoers</li>
+                        <li>Night photography in old towns/centers</li>
+                    </ul>
+                </li>
+                <li>
+                    Portrait Photography
+                    <ul>
+                        <li>Candids of friends</li>
+                        <li>Flash photography in lower light settings</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <div class="image-container">
+                <img src="../startbootstrap-clean-blog-gh-pages/images/jetstand.png"
+                     alt="Me in Eureka, Utah (middle of nowhere)">
+                <p>Me in Eureka, Utah (middle of nowhere)</p>
+            </div>
+
+        </div><!-- end section-box -->
+
+        <!-- ================================
+             YOUTUBE VIDEO SECTION
+        ================================= -->
+        <a name="video"></a>
+        <div class="section-box">
+            <h2>Video Link</h2>
+
+            <p>
+                This video is amazing. You should watch it now.
+            </p>
+
+            <!-- YouTube embed (works once hosted online) -->
+            <div class="video-wrapper">
+                <iframe
+                    src="https://youtu.be/hB7CDrVnNCs?si=yxfidgXi9NvVGVYN"
+                    title="Lo-Fi Hip Hop Production Tutorial"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+        </div><!-- end section-box -->
+
+
+        <!-- Tableau -->
+        <a name="data"></a>
+        <div class="section-box">
+            <h2>Tourism Data</h2>
+
+            <p>
+               This is a tableau visualization of the contribution of tourism to the GDP of different countries.
+            </p>
+
+            <!-- Live Tableau embed -->
+           <div class='tableauPlaceholder' id='viz1776135086611' style='position: relative'>
         <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;TravelandTourismDevelopment&#47;CountryGDP-TTcontribution&#47;1_rss.png' style='border: none' />
         </a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
             <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
@@ -27,5 +150,28 @@
                 scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                  
                 vizElement.parentNode.insertBefore(scriptElement, vizElement);                
         </script>
+
+
+        </div><!-- end section-box -->
+
+            <!-- anchor link back to top -->
+            <p style="text-align: center;">
+                <a href="#top">Back to Top</a>
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!--footer -->
+    <footer>
+        <p>Created by Jet Piper &nbsp;|&nbsp; IS 201 Website </p>
+        <p>
+            <a href="index.html">Back to Portfolio</a> &nbsp;|&nbsp;
+            <a href="app.html">My Web App</a>
+        </p>
+    </footer>
+
 </body>
 </html>

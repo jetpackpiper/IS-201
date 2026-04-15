@@ -1,3 +1,137 @@
-p{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+/* Style 1 - Body background and font */
+body {
+    background-color: #1a1a2e;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style 2 - Navigation bar */
+nav {
+    background-color: #16213e;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #e8c87a;
+}
+
+nav a {
+    color: #e8c87a;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Style 3: Page headings */
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #e8c87a;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7a9fe8;
+}
+
+h3 {
+    color: #e8c87a;
+}
+
+/* Style 4 - Paragraphs */
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #d0d0d0;
+}
+
+/* Div 1 - Main content wrapper */
+#main-content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Div 2 - Individual sections */
+.section-box {
+    background-color: #16213e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+/* Div 3 - Image styling container */
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 6px;
+    border: 2px solid #e8c87a;
+}
+
+.image-container p {
+    font-size: 13px;
+    color: #888;
+    font-style: italic;
+}
+
+/* Style 5 - Lists */
+ul {
+    line-height: 2;
+    color: #d0d0d0;
+}
+
+ol {
+    line-height: 2;
+    color: #d0d0d0;
+}
+
+/* Style 6 - Links */
+a {
+    color: #7a9fe8;
+}
+
+a:hover {
+    color: #e8c87a;
+}
+
+/* Style 7 - Footer */
+footer {
+    background-color: #16213e;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #e8c87a;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #888;
+}
+
+/* Style 8 - Video wrapper to make YouTube responsive */
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
 }

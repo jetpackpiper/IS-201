@@ -1,0 +1,55 @@
+body {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 15px;
+    color: rgb(51, 104, 106);
+    background-color: rgb(255, 178, 150);
+ }
+li {
+     font-size: 14px;
+}
+/* The video tutorial wasn't working for this part, so I had to ask AI
+to help me on why. It updated the rules to a li li tag.  */
+li li {
+    font-style: italic;
+    font-weight: normal;
+}
+a { color: mediumslateblue;
+    text-decoration: none;
+}
+/* hovering over the link making it blue and larger*/
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    /* font-size: 17px; */
+}
+a:visited{
+    color: blue;
+}
+.resumeListHeading {
+     font-weight: bold;
+     font-style: normal;
+}
+.underline { text-decoration: underline;}
+.bold { font-weight: bold; }
+.justify { text-align: justify; }
+
+/* the background image for the home page */
+.homebg {
+    background-image: url('../images/simpson\ back.jpg');
+    background-position: top right;
+    background-attachment: fixed;
+}
+/* the box for the about me page demonstration */
+.box1{
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+
+    /* border: 1px solid green;  */
+}
+.box2{ 
+    padding: 5px;
+}
+.box3{ 
+    margin: 40px;
+}
